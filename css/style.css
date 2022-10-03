@@ -158,7 +158,8 @@
     padding: .5rem 0;
 
 }
-.title-abbonamenti h4{
+.title-abbonamenti h4,
+.text-horizontal-card h4{
     font-size: 30px;
 }
 
@@ -194,4 +195,33 @@
 
 .box-abbonamenti .fa-solid{
     padding-right: .5rem;
+}
+
+.horizontal-card{
+    margin-top: 4rem;
+    border: 1px solid black;
+    padding-top: 1rem;
+}
+
+.text-horizontal-card{
+    flex-basis: 60%;
+    padding: 1rem;
+}
+
+.btn-horizontal-card{
+    flex-basis: 40%;
+    text-align: right;
+    padding: 1rem;
+}
+
+.box-txt-btn-horizontal-card{
+    display: flex;
+}
+
+.text-horizontal-card >*{
+    padding-bottom: 1rem;
+}
+
+.text-horizontal-card .st{
+    padding-top: 2rem;
 }
