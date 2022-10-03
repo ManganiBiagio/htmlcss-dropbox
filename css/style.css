@@ -105,8 +105,12 @@
     max-width: 920px;
 }
 
-.main section{
+.main .section{
     padding: 10rem 0;
+}
+
+section{
+    padding:2rem 0;
 }
 
 .padding-text-main{
@@ -159,7 +163,8 @@
 
 }
 .title-abbonamenti h4,
-.text-horizontal-card h4{
+.text-horizontal-card h4,
+.txt-img h4{
     font-size: 30px;
 }
 
@@ -224,4 +229,37 @@
 
 .text-horizontal-card .st{
     padding-top: 2rem;
+}
+
+section{
+    padding: 1rem 0;
+}
+
+.box{
+    display: flex;
+}
+
+.box-img img{
+    display: block;
+    width: 100%;
+}
+.box-img{
+    flex-basis: 60%;
+}
+.txt-img{
+    flex-basis:40%;
+    padding: 2rem;
+}
+.txt-img >*{
+    padding-top: 3rem;
+}
+
+.padding-top{
+    padding-top: 1rem;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
 }
