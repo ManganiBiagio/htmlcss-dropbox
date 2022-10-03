@@ -7,6 +7,8 @@
 :root{
     --btn-background-color:#307FFF;
     --btn-color:white;
+    --jumbo-background:#B4D0E7;
+    --nav-color:white;
 }
 
 .header nav{
@@ -19,6 +21,7 @@
     left: 0;
     right: 0;
     z-index: 6;
+    background-color: var(--nav-color);
 }
 
 
@@ -43,8 +46,56 @@
 .btn{
     border: 0;
     background-color:var(--btn-background-color) ;
-    padding: .2rem .7rem;
+    padding: .5rem 1rem;
     color:var(--btn-color);
+}
 
+.container-big{
+    max-width: 1200px;
+    margin: auto;
+}
 
+.jumbo-box{
+    margin-top: 5rem;
+    background-color: var(--jumbo-background);
+    padding: 1rem 0rem;
+
+}
+
+.jumbo-bottom-box{
+    display: flex;
+
+}
+.jumbo-title{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 42px;
+}
+.jumbo-img img{
+    width: 100%;
+    display: block;
+    position: relative;
+    bottom: -100px;
+}
+.jumbo-img{
+    flex-basis: 385%;
+    
+}
+
+.jumbo-text{
+    text-align: left;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.jumbo-text >*{
+    padding: 1rem 0;
+}
+
+.div-spacer{
+    flex-grow: 1;
+}
+
+.arrow-down-jumbo{
+    font-size: 40px;
 }
