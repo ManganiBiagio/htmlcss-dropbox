@@ -3,3 +3,48 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+    --btn-background-color:#307FFF;
+    --btn-color:white;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 6;
+}
+
+
+
+.header nav .left-nav,
+.header nav .right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.header nav .left-nav >*,
+.header nav .right-nav >*{
+    padding: 0 1rem;
+    
+}
+
+.header nav .nav-text >*{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    border: 0;
+    background-color:var(--btn-background-color) ;
+    padding: .2rem .7rem;
+    color:var(--btn-color);
+
+
+}
