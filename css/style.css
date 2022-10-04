@@ -198,7 +198,8 @@ section{
     
 }
 
-.box-abbonamenti .fa-solid{
+.box-abbonamenti .fa-solid,
+.horizontal-card .fa-solid{
     padding-right: .5rem;
 }
 
