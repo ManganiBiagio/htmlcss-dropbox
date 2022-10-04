@@ -257,7 +257,7 @@ section{
 }
 
 .padding-top{
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 .btn-white{
@@ -278,7 +278,6 @@ section{
 .row{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 2rem;
 }
 
 .card-feature h4{
@@ -289,5 +288,18 @@ section{
 .card-feature{
     flex-basis: 33.3%;
     padding: 2rem 1rem;
+}
+
+.banner{
+    display: flex;
+}
+
+.banner-70{
+    flex-basis: 70%;
+}
+
+.banner-30{
+    flex-basis: 30%;
+   
 }
 
