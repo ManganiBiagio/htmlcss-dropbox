@@ -316,11 +316,11 @@ section{
     
 }
 .box-4quadrati{
-    width:calc(106vw / 6 * 2) ;
+    width:calc(100vw / 6 * 2) ;
 }
 
 .box-4quadrati .quadrato{
-    width: calc(100vw / 6 );
+    width: 50%;
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
