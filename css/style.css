@@ -277,6 +277,10 @@ section{
 
 .row{
     display: flex;
+    
+}
+
+.wrap{
     flex-wrap: wrap;
 }
 
@@ -290,9 +294,7 @@ section{
     padding: 2rem 1rem;
 }
 
-.banner{
-    display: flex;
-}
+
 
 .banner-70{
     flex-basis: 70%;
@@ -300,6 +302,65 @@ section{
 
 .banner-30{
     flex-basis: 30%;
-   
 }
 
+.basis-33{
+    flex-basis: 33.3%;
+}
+
+.box-4quadrati img,
+.box-centrale img{
+    width: 100%;
+    display: block;
+    
+    
+}
+.box-4quadrati{
+    
+}
+
+.box-4quadrati .quadrato{
+    width: calc(100vw / 6 );
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+    
+}
+.box-centrale{
+    width: calc(100vw / 6 * 2) ;
+    
+}
+
+
+
+
+
+/* colori quadrati */
+.green{
+    background-color: green;
+}
+.granata{
+    background-color: rgb(69, 15, 15);
+}
+.celeste{
+    background-color: rgb(10, 111, 136);
+}
+.red{
+    background-color: rgb(205, 18, 18);
+}
+.rosso-scuro{
+    background-color: rgb(119, 25, 15);
+}
+.gray{
+    background-color: rgb(88, 122, 148);
+}
+
+.blu{
+    background-color: #092249;
+}
+.yellow{
+    background-color: rgb(199, 210, 0);
+}
