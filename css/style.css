@@ -316,7 +316,7 @@ section{
     
 }
 .box-4quadrati{
-    
+    width:calc(106vw / 6 * 2) ;
 }
 
 .box-4quadrati .quadrato{
