@@ -260,6 +260,8 @@ section{
     padding-top: 2rem;
 }
 
+
+
 .btn-white{
     background-color: white;
     color: black;
@@ -308,12 +310,14 @@ section{
     flex-basis: 33.3%;
 }
 
-.box-4quadrati img,
-.box-centrale img{
+.box-4quadrati img{
     width: 100%;
     display: block;
-    
-    
+}
+
+.box-centrale img{
+    display: block;
+    width: 70%;
 }
 .box-4quadrati{
     width:calc(100vw / 6 * 2) ;
@@ -331,7 +335,12 @@ section{
 }
 .box-centrale{
     width: calc(100vw / 6 * 2) ;
+    padding: 2rem;
     
+}
+
+.box-centrale .horizontal-line{
+    margin: 2rem 0;
 }
 
 
