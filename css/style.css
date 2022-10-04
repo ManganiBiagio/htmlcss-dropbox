@@ -382,6 +382,37 @@ section{
     padding-bottom: 3rem;
 }
 
+footer{
+    color: white;
+    background-color: black;
+    padding: 2rem 0;
+}
+
+footer h6{
+  font-size: large;  
+  padding-bottom: 1rem;
+}
+
+footer .row a{
+    text-decoration: none;
+    color: white;
+    padding: .2rem 0;
+    display: block;
+}
+footer .horizontal-line{
+    background-color: white;
+}
+
+footer .row.space-between {
+    padding: 1rem 0 3rem 0;
+}
+
+.language{
+    padding: 2rem 0 2rem 0;
+}
+.language >*{
+    padding-right: .5rem;
+}
 /* colori quadrati */
 .green{
     background-color: green;
