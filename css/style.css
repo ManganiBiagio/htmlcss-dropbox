@@ -9,6 +9,7 @@
     --btn-color:white;
     --jumbo-background:#B4D0E7;
     --nav-color:white;
+    --space-y:4rem;
 }
 
 .header nav{
@@ -106,11 +107,12 @@
 }
 
 .main .section{
-    padding: 10rem 0;
+    padding-top: 10rem;
+    padding-bottom: var(--space-y);
 }
 
 section{
-    padding:2rem 0;
+    padding:var(--space-y) 0;
 }
 
 .padding-text-main{
@@ -164,7 +166,8 @@ section{
 }
 .title-abbonamenti h4,
 .text-horizontal-card h4,
-.txt-img h4{
+.txt-img h4,
+.card-feature h4{
     font-size: 30px;
 }
 
@@ -232,9 +235,7 @@ section{
     padding-top: 2rem;
 }
 
-section{
-    padding: 1rem 0;
-}
+
 
 .box{
     display: flex;
@@ -264,3 +265,29 @@ section{
     color: black;
     border: 1px solid gray;
 }
+
+.card-feature .img img{
+    width: 100%;
+    display: block;
+    
+}
+.card-feature .img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.card-feature h4{
+    margin-bottom: 1rem;
+    
+}
+
+.card-feature{
+    flex-basis: 33.3%;
+    padding: 2rem 1rem;
+}
+
