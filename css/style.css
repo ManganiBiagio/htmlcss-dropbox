@@ -399,6 +399,18 @@ input[type="checkbox"]:checked + label span{
     padding: 2rem 1rem 2rem 0;
 }
 
+.activator-accordion:hover .accordion-box{
+    display: block;
+
+}
+
+.accordion-box{
+    padding-top: 1rem;
+    display: none;
+    
+    
+}
+
 .faq-section h2{
     padding-bottom: 3rem;
 }
@@ -426,7 +438,10 @@ footer .horizontal-line{
 
 footer .row.space-between {
     padding: 1rem 0 3rem 0;
+    
 }
+
+
 
 .language{
     padding: 2rem 0 2rem 0;
@@ -460,3 +475,4 @@ footer .row.space-between {
 .yellow{
     background-color: rgb(199, 210, 0);
 }
+
