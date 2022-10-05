@@ -342,6 +342,7 @@ input[type="checkbox"]:checked + label span{
 .box-4quadrati img{
     width: 100%;
     display: block;
+    filter: invert();
 }
 
 .box-centrale img{
