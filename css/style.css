@@ -123,10 +123,10 @@ section{
     font-size: 45px;
 }
 
-input[type="checkbox"]{
+input[type="radio"]{
     display: none;
 }
-input[type="checkbox"] + label span{
+input[type="radio"] + label span{
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -141,7 +141,7 @@ input[type="checkbox"] + label span{
     padding-right: 2rem;
 }
 
-input[type="checkbox"]:checked + label span{
+input[type="radio"]:checked + label span{
     border: 3px solid blue;
 }
 .box-abbonamenti{
