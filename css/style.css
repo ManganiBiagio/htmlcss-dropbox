@@ -366,6 +366,8 @@ input[type="checkbox"]:checked + label span{
 .box-centrale{
     width: calc(100vw / 6 * 2) ;
     padding: 2rem;
+    overflow: auto;
+    aspect-ratio: 1 / 1;
     
 }
 
