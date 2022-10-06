@@ -43,6 +43,48 @@
     text-decoration: none;
     color: black;
 }
+#side-bar1:hover #box-1{
+    left: auto;
+    
+}
+#side-bar2:hover #box-2{
+    left: auto;
+}
+#side-bar3:hover #box-3{
+    left: auto;
+}
+#side-bar4:hover #box-4{
+    left: auto;
+}
+#side-bar5:hover #box-5{
+    left: auto;
+}
+#side-bar6:hover #box-6{
+    left: auto;
+}
+
+.box-comparsa{
+    position: absolute;
+    background-color: white;
+    top:63px ;
+    z-index: 2;
+    left:-150px;
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+    
+}
+.box-comparsa div a{
+    padding: 1rem 2rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+    
+
+    
+
+
+}
 
 .btn{
     border: 0;
