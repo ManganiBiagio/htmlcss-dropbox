@@ -143,6 +143,48 @@
     font-size: 40px;
 }
 
+.arrow-down-jumbo:hover i{
+    animation: freccia-animation .8s ease;
+    animation-iteration-count: 1;
+    border-radius: 50%;
+    
+    
+    
+    
+}
+@keyframes freccia-animation{
+    0%{
+        rotate: 0deg;
+        scale:1;
+        color: black;
+        background-color: #307FFF;
+        
+        
+    }
+    50%{
+        rotate:180deg;
+        scale:2;
+        color: var(--btn-background-color);
+        background-color: rgb(24, 75, 103);
+        
+        
+        
+
+    }
+    100%{
+        rotate: 360deg;
+        scale:1;
+        color: black;
+        background-color: #307FFF;
+        
+        
+    }
+}
+
+
+    
+
+
 .container-small{
     margin: auto;
     max-width: 920px;
