@@ -448,6 +448,20 @@ input[type="radio"]:checked + label span{
     display: block;
 
 }
+.activator-accordion:hover .rotate {
+    animation: ruota .2s linear ;
+}
+@keyframes ruota {
+    0% {
+        transform: rotate(-360deg);
+        scale: 1;
+    }
+    50%{
+        transform: rotate(-180deg) ;
+        scale:3;
+    }
+}
+
 
 .accordion-box{
     padding-top: 1rem;
